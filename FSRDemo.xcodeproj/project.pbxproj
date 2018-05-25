@@ -13,6 +13,8 @@
 		A86F49E820B7F0E5002BE212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86F49E720B7F0E5002BE212 /* Assets.xcassets */; };
 		A86F49EB20B7F0E5002BE212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A86F49E920B7F0E5002BE212 /* LaunchScreen.storyboard */; };
 		A86F49EE20B7F0E5002BE212 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F49ED20B7F0E5002BE212 /* main.m */; };
+		A86F49FA20B7F5D1002BE212 /* FSRDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F49F920B7F5D1002BE212 /* FSRDemo.m */; };
+		A86F49FD20B7F620002BE212 /* FSRView.m in Sources */ = {isa = PBXBuildFile; fileRef = A86F49FC20B7F620002BE212 /* FSRView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		A86F49EA20B7F0E5002BE212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A86F49EC20B7F0E5002BE212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A86F49ED20B7F0E5002BE212 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A86F49F820B7F5D1002BE212 /* FSRDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSRDemo.h; sourceTree = "<group>"; };
+		A86F49F920B7F5D1002BE212 /* FSRDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSRDemo.m; sourceTree = "<group>"; };
+		A86F49FB20B7F620002BE212 /* FSRView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSRView.h; sourceTree = "<group>"; };
+		A86F49FC20B7F620002BE212 /* FSRView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSRView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		A86F49DD20B7F0E4002BE212 /* FSRDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A86F49F720B7F5C5002BE212 /* FSRDemo */,
 				A86F49DE20B7F0E4002BE212 /* AppDelegate.h */,
 				A86F49DF20B7F0E4002BE212 /* AppDelegate.m */,
 				A86F49E120B7F0E4002BE212 /* ViewController.h */,
@@ -67,6 +74,17 @@
 				A86F49E920B7F0E5002BE212 /* LaunchScreen.storyboard */,
 				A86F49EC20B7F0E5002BE212 /* Info.plist */,
 				A86F49ED20B7F0E5002BE212 /* main.m */,
+			);
+			path = FSRDemo;
+			sourceTree = "<group>";
+		};
+		A86F49F720B7F5C5002BE212 /* FSRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A86F49F820B7F5D1002BE212 /* FSRDemo.h */,
+				A86F49F920B7F5D1002BE212 /* FSRDemo.m */,
+				A86F49FB20B7F620002BE212 /* FSRView.h */,
+				A86F49FC20B7F620002BE212 /* FSRView.m */,
 			);
 			path = FSRDemo;
 			sourceTree = "<group>";
@@ -141,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86F49FA20B7F5D1002BE212 /* FSRDemo.m in Sources */,
+				A86F49FD20B7F620002BE212 /* FSRView.m in Sources */,
 				A86F49E320B7F0E4002BE212 /* ViewController.m in Sources */,
 				A86F49EE20B7F0E5002BE212 /* main.m in Sources */,
 				A86F49E020B7F0E4002BE212 /* AppDelegate.m in Sources */,
